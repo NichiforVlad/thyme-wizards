@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Taming Thymeleaf</title>
-    <link rel="stylesheet" th:href="@{/css/application.css}">
+    <link rel="stylesheet" th:href="@{/webjars/tailwindcss/2.1.2/dist/tailwind.min.css}">
 </head>
 <body>
-<h1 th:text="#{index.title}">First title</h1>
+<h1 th:text="#{index.title}" class="text-4xl mx-4 mb-4 border-b-4 border-green-700">First title</h1>
 <h1 th:text="${pageTitle}">Taming Thymeleaf</h1>
 <div>Authors:</div>
 <div>

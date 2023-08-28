@@ -1,4 +1,4 @@
-package com.tyme.wizards;
+package com.thyme.wizards;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

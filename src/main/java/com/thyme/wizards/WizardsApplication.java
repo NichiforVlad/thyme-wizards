@@ -1,4 +1,4 @@
-package com.tyme.wizards;
+package com.thyme.wizards;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
