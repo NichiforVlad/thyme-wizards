@@ -11,8 +11,6 @@
 <h1 th:text="${pageTitle}">Taming Thymeleaf</h1>
 <div>Authors:</div>
 <div th:insert="fragments :: separator"></div>
-<div th:replace="fragments :: menu-item('Users', '/users')"></div>
-<div th:replace="fragments :: menu-item('Groups', '/groups')"></div>
 <div>
     <ul>
         <li th:each="author : ${pageAuthors}">

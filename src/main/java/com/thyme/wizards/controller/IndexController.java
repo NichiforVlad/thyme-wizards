@@ -15,7 +15,7 @@ public class IndexController {
     public String index(Model model) {
         model.addAttribute("pageTitle", "ThymeWizards");
         model.addAttribute("pageAuthors", List.of("Vlad", "Vladus", "Vlodimir"));
-        return "index2";
+        return "index";
     }
 
 }
